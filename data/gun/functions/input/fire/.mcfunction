@@ -1,0 +1,1 @@
+execute store result score #firing_mode gun.data run data get storage gun:data gun.FiringMode

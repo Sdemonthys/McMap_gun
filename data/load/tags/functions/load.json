@@ -1,5 +1,6 @@
 {
   "values": [
-    "#smithed.damage:load"
+    "#smithed.damage:load",
+    "gun:load"
   ]
 }
