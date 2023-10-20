@@ -1,5 +1,6 @@
 CustomModelData: 6890000
 
+ReloadCooldown: 15 
 Cooldown: 5
 Damage:
   Neutral damage: +10

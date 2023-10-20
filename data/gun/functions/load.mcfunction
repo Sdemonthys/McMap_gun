@@ -2,6 +2,7 @@ function gun:items
 
 scoreboard objectives add gun.right_click used:warped_fungus_on_a_stick
 scoreboard objectives add gun.data dummy
+scoreboard objectives add gun.cooldown dummy
 
 forceload add 0 0
 # 62061910-616f-403d-b391-82c2a14aba41
