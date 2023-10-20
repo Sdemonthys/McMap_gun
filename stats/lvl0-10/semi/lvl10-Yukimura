@@ -1,0 +1,24 @@
+Cooldown: 1
+Damage:
+  Neutral damage: +35
+  Electrical: +10
+  Physical: +0
+  Poison: +10/s
+
+Range: 31
+Recoil: 1
+Sound: pistol_type_sound_blaster
+RaycastColor: Green
+ImpactOnColision: small_impact
+LevelRequiered: 10
+EquipTime: 2
+FiringMode: semi
+PoisonTime: 15
+CanGoThroughBlock: 0
+
+AddPlayerSpeed: 1
+
+AddAbilityPoints: 0
+AddAbilityPointsRegen: +0/s
+AddSkillPoints: 0
+AddUniqueSkill: 0

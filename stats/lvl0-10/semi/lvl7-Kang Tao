@@ -1,0 +1,24 @@
+Cooldown: 1
+Damage:
+  Neutral damage: +25
+  Electrical: +5
+  Physical: +0
+  Poison: +0/s
+
+Range: 31
+Recoil: 1
+Sound: 2
+RaycastColor: 1
+ImpactOnColision: 0
+LevelRequiered: 7
+EquipTime: 2
+FiringMode: 2
+PoisonTime: 0
+CanGoThroughBlock: 0
+
+AddPlayerSpeed: 0
+
+AddAbilityPoints: 0
+AddAbilityPointsRegen: +0/s
+AddSkillPoints: 0
+AddUniqueSkill: 0
