@@ -1,14 +1,14 @@
 CustomModelData: 6890000
 
 ReloadCooldown: 15 
-Cooldown: 5
+Cooldown: 3
 Damage:
   Neutral damage: +10
   Electrical: +0
   Physical: +0
   Poison: +0/s
 
-Range: 250
+Range: 250 #quart de blocks
 Recoil: 1
 Sound: 0
 RaycastColor: 1

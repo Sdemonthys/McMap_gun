@@ -1,0 +1,1 @@
+scoreboard players set #range gun.data 0

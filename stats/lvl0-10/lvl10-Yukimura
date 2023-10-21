@@ -18,7 +18,7 @@ CanGoThroughBlock: 0
 
 AddPlayerSpeed: 1
 
-AddAbilityPoints: 0
+AddAbilityPoints: 0 
 AddAbilityPointsRegen: +0/s
 AddSkillPoints: 0
 AddUniqueSkill: 0

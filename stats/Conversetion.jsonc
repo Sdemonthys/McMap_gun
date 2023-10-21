@@ -1,6 +1,6 @@
 {
 	"raycastcolor": [
-		"blue", //0
+		"light_blue", //0
 		"gray", //1
 		"black", //2
 		"red" //3
