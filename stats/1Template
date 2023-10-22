@@ -8,7 +8,8 @@ Damage:
   Neutral damage: 0
   Electrical: 0
   Physical: +0
-  Poison: +0/s
+  
+Poison: +0/s
 
 Range: 0
 Recoil: 0
