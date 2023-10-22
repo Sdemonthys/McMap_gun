@@ -1,28 +1,40 @@
-Cooldown: 0
-Damage:
-  Neutral damage: +15
-  Electrical: +2
-  Physical: +0
-  Poison: +0/s
+CustomModelData: 689xxxx
 
-Range: 37
-Recoil: 2
-Sound: pistol_type_sound_Bullet
-RaycastColor: gray
-ImpactOnColision: medium impact
-LevelRequiered: 5
-EquipTime: 3
-FiringMode: auto
-PoisonTime: 0
-ProjectileType: Bullet
-ProjectileSpeed:
-CanGoThroughBlock: 1
+ReloadCooldown: 11
+Cooldown: 0
+
+CriticalChance: 5
+Damage:
+  Neutral damage: 14
+  Electrical: 0
+  Physical: 0
+  Toxic: 5
+
+  Poison: +2/s
+
+Range: 55
+Recoil: 0
+Sound: 2
+RaycastColor: 1
+ImpactOnColision: 1
+Rarity: 1
+EquipTime: 2
+FiringMode: 0
+PoisonTime: 3
+CanGoThroughBlock: 0
+MaxAmmo: 25
+Ammo: 25
+
+LevelMin: 5
+ElectricalMin: 0
+PhysicalMin: 0
+ToxicMin: 7
+
+ClassRequired: 0
+QuestCompletedRequired: 0
 
 AddPlayerSpeed: 0
-AddPlayerArmor: 0
-AddPlayerDamage: 0
-
 AddAbilityPoints: 0
 AddAbilityPointsRegen: +0/s
 AddSkillPoints: 0
-AddUniqueSkill: 0
+UniqueAbility: 0

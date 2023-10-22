@@ -1,6 +1,9 @@
 CustomModelData: 689xxxx
 
+ReloadCooldown: 0
 Cooldown: 0
+
+CriticalChance: 0
 Damage:
   Neutral damage: 0
   Electrical: 0
@@ -18,12 +21,15 @@ FiringMode: 0
 PoisonTime: 0
 CanGoThroughBlock: 0
 MaxAmmo: 0
+Ammo: 0
 
-LevelRequiered: 0
-ElectricalStatRequiered: 0
-PhysicalStatRequiered: 0
-PoisonStatRequiered: 0
-QuestCompletedRequiered: 0
+LevelMin: 0
+ElectricalMin: 0
+PhysicalMin: 0
+ToxicMin: 0
+
+ClassRequired: x
+QuestCompletedRequired: 0
 
 AddPlayerSpeed: 0
 AddAbilityPoints: 0

@@ -1,7 +1,9 @@
-CustomModelData: 689xxxx
+CustomModelData: 6890001
 
 ReloadCooldown: 8
 Cooldown: 3
+
+CriticalChance: 0
 Damage:
   Neutral damage: 5
   Electrical: 8
@@ -24,8 +26,10 @@ Ammo: 11
 LevelMin: 2
 ElectricalMin: 3
 PhysicalMin: 0
-PoisonMin: 0
-QuestCompletedRequiered: 0
+ToxicMin: 0
+
+ClassRequired: x
+QuestCompletedRequired: 0
 
 AddPlayerSpeed: 0
 AddAbilityPoints: 0

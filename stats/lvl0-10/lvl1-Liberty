@@ -2,6 +2,8 @@ CustomModelData: 6890000
 
 ReloadCooldown: 15 
 Cooldown: 3
+
+CriticalChance: 0
 Damage:
   Neutral damage: +10
   Electrical: +0
@@ -13,17 +15,20 @@ Recoil: 1
 Sound: 0
 RaycastColor: 1
 ImpactOnColision: 0
-Rarity: 1
+Rarity: 0
 EquipTime: 3
 FiringMode: 2
 PoisonTime: 0
 CanGoThroughBlock: 1
-MaxAmmo: 0
+MaxAmmo: 7
+Ammo: 7
 
 LevelMin: 1
 ElectricalMin: 0
 PhysicalMin: 0
 ToxicMin: 0
+
+ClassRequired: x
 QuestCompletedRequiered: 0
 
 AddPlayerSpeed: 0

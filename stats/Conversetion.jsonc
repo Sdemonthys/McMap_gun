@@ -36,7 +36,19 @@
 		"rare", //1
 		"epic", //2
 		"legendary", //3
-		"Set" //4
+		"Set", //4
+		"Unique",
+		"Mythic"
 	],
-	"MaxAmmo":1
+	"MaxAmmo":1,
+	"ClassRequired":[
+		"None",
+		"Mercenary",
+		"Hacker",
+		"Terrorist"
+	],
+	"CanGoThroughBlock":[
+		"False", //0
+		"True" //1
+	]
 }

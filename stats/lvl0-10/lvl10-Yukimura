@@ -1,24 +1,38 @@
-Cooldown: 1
+CustomModelData: 689xxxx
+
+ReloadCooldown: 0
+Cooldown: 0
+
+CriticalChance: 0
 Damage:
-  Neutral damage: +35
-  Electrical: +10
+  Neutral damage: 0
+  Electrical: 0
   Physical: +0
-  Poison: +10/s
+  Poison: +0/s
 
-Range: 31
-Recoil: 1
-Sound: pistol_type_sound_blaster
-RaycastColor: Green
-ImpactOnColision: small_impact
-LevelRequiered: 10
-EquipTime: 2
-FiringMode: semi
-PoisonTime: 15
+Range: 0
+Recoil: 0
+Sound:
+RaycastColor:
+ImpactOnColision: 0
+Rarity: 0
+EquipTime: 0
+FiringMode: 0
+PoisonTime: 0
 CanGoThroughBlock: 0
+MaxAmmo: 0
+Ammo: 0
 
-AddPlayerSpeed: 1
+LevelMin: 0
+ElectricalMin: 0
+PhysicalMin: 0
+ToxicMin: 0
 
-AddAbilityPoints: 0 
+ClassRequired: x
+QuestCompletedRequired: 0
+
+AddPlayerSpeed: 0
+AddAbilityPoints: 0
 AddAbilityPointsRegen: +0/s
 AddSkillPoints: 0
-AddUniqueSkill: 0
+UniqueAbility: 0
