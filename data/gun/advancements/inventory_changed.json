@@ -1,11 +1,10 @@
 {
-    "criteria": {
-      "requirement": {
-        "trigger": "minecraft:inventory_changed"
-      }
-    },
-    "rewards": {
-      "function": "gun:event/update_inventory"
-    }
-  }
-  
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"rewards": {
+		"function": "gun:event/inventory_changed"
+	}
+}
