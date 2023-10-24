@@ -1,31 +1,31 @@
-CustomModelData: 6890001
+CustomModelData: 689xxxx
 
-ReloadCooldown: 8
-Cooldown: 3
+ReloadCooldown: 0
+Cooldown: 0
 
 CriticalChance: 0
 Damage:
-  Neutral damage: 5
-  Electrical: 8
-  Physical: +0
-
+  Neutral damage: 220
+  Electrical: 0
+  Physical: +55
+  
 Poison: +0/s
 
-Range: 50
+Range: 0
 Recoil: 0
-Sound: 1
-RaycastColor: 0
+Sound:
+RaycastColor:
 ImpactOnColision: 0
-Rarity: 3
+Rarity: 0
 EquipTime: 0
 FiringMode: 0
 PoisonTime: 0
 CanGoThroughBlock: 0
-MaxAmmo: 11
-Ammo: 11
+MaxAmmo: 0
+Ammo: 0
 
-LevelMin: 2
-ElectricalMin: 3
+LevelMin: 0
+ElectricalMin: 0
 PhysicalMin: 0
 ToxicMin: 0
 
@@ -34,6 +34,6 @@ QuestCompletedRequired: 0
 
 AddPlayerSpeed: 0
 AddAbilityPoints: 0
-AbilityPointsRegen: +1/s
+Ab.Regen: +0/s
 AddSkillPoints: 0
 UniqueAbility: 0

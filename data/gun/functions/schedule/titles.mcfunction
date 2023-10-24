@@ -1,2 +1,2 @@
 title @s[tag=!gun.reloading] actionbar [{"nbt":"SelectedItem.tag.gun.Ammo","entity": "@s"},"/",{"nbt":"SelectedItem.tag.gun.MaxAmmo","entity": "@s"}]
-title @s[tag=gun.reloading] actionbar "reloading..."
+title @s[tag=gun.reloading] actionbar "[reloading...]"

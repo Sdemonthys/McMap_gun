@@ -1,5 +1,4 @@
 function gun:input/fire/raycast/end
-say hit
 
 execute store result score @s smithed.damage run data get storage gun:data gun.Damage.Neutral
 execute store result score #PhysicalDamage gun.data run data get storage gun:data gun.Damage.Physical
@@ -9,4 +8,8 @@ execute if score #ElectricalDamage gun.data matches 1.. run function gun:damage/
 execute store result score #ToxicDamage gun.data run data get storage gun:data gun.Damage.Toxic
 execute if score #ToxicDamage gun.data matches 1.. run function gun:damage/toxic
 
-function gun:damage/get_protection
+scoreboard players operation @s smithed.damage += #PhysicalDamage gun.data
+scoreboard players operation @s smithed.damage += #ElectricalDamage gun.data
+scoreboard players operation @s smithed.damage += #ToxicDamage gun.data
+
+function #smithed.damage:entity/apply/armor

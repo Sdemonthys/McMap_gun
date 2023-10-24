@@ -8,7 +8,8 @@ Damage:
   Neutral damage: +10
   Electrical: +0
   Physical: +0
-  Poison: +0/s
+
+Poison: +0/s
 
 Range: 250 #quart de blocks
 Recoil: 1
