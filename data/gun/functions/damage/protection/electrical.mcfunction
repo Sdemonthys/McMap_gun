@@ -5,4 +5,4 @@ scoreboard players operation #prot gun.data += #temp gun.data
 execute store result score #temp gun.data run data get entity @s Inventory[{Slot:101b}].tag.gun.protection.Electrical
 scoreboard players operation #prot gun.data += #temp gun.data 
 execute store result score #temp gun.data run data get entity @s Inventory[{Slot:100b}].tag.gun.protection.Electrical
-scoreboard players operation #prot gun.data += #temp gun.data 
+scoreboard players operation #prot gun.data += #temp gun.data
