@@ -1,3 +1,4 @@
+
 execute if entity @s[tag=!gun.hold_gun,tag=!global.ignore.gui] if predicate gun:hold_gun run function gun:schedule/add_tag
 execute if entity @s[tag=gun.hold_gun] unless predicate gun:hold_gun run function gun:schedule/remove_tag
 
