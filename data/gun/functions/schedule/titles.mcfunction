@@ -1,2 +1,2 @@
-title @s[tag=!gun.reloading] actionbar [{"nbt":"SelectedItem.tag.gun.Ammo","entity": "@s"},"/",{"nbt":"SelectedItem.tag.gun.MaxAmmo","entity": "@s"}]
-title @s[tag=gun.reloading] actionbar "[reloading...]"
+execute if entity @s[tag=!gun.reloading] run function gun:schedule/titles_gameplay
+title @s[tag=gun.reloading] actionbar {"text": "[reloading...]","color":"#FFFF00"}

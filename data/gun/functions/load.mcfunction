@@ -7,6 +7,12 @@ scoreboard objectives add gun.cooldown dummy
 scoreboard objectives add gun.old_level dummy
 scoreboard objectives add Level level
 scoreboard objectives add Electrical dummy
+scoreboard objectives add Toxic dummy
+scoreboard objectives add Physical dummy
+
+scoreboard objectives add gun.ability_points dummy
+scoreboard objectives add gun.max_ability_points dummy
+scoreboard objectives add gun.ultimate dummy
 
 forceload add 0 0
 # 62061910-616f-403d-b391-82c2a14aba41

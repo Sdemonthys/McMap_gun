@@ -7,3 +7,4 @@ execute if score #sound gun.data matches 3 run playsound gun:bullet.auto player 
 execute if score #sound gun.data matches 4 run playsound gun:bullet.auto player @a[distance=..100] ~ ~ ~ 1 1
 execute if score #sound gun.data matches 5 run playsound gun:bullet.auto player @a[distance=..100] ~ ~ ~ 1 1
 execute if score #sound gun.data matches 6 run playsound gun:bullet.auto player @a[distance=..100] ~ ~ ~ 1 1
+
