@@ -1,6 +1,6 @@
 
-# Revoke advancement
-advancement revoke @s only gun:inventory_changed
+# Remove tag
+tag @s remove gun.inventory_changed
 
 # Copy inventory and loop over it
 data modify storage gun:data Inventory set from entity @s Inventory
