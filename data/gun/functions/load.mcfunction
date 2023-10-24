@@ -4,6 +4,7 @@ scoreboard objectives add gun.right_click used:warped_fungus_on_a_stick
 scoreboard objectives add gun.data dummy
 scoreboard objectives add gun.cooldown dummy
 
+scoreboard objectives add gun.old_level dummy
 scoreboard objectives add Level level
 scoreboard objectives add Electrical dummy
 
@@ -16,3 +17,4 @@ tellraw @a[tag=convention.debug] "gun loaded"
 
 #define storage gun:items
 #define storage gun:data
+
