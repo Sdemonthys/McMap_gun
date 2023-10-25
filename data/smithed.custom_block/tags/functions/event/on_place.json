@@ -1,0 +1,6 @@
+{
+    "values": [
+        {"id": "#smithed.crafter:block/place", "required": false},
+        "gun:custom_block/"
+    ]
+}
