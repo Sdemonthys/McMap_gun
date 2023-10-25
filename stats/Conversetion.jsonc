@@ -31,15 +31,6 @@
 		"Burst_bullet", //5
 		"Burst_blaster" //6
 	],
-	"reload_sound": [
-		"Semi_bullet_reload", //0
-		"Semi_blaster_reload", //1
-		"Auto_bullet_reload", //2
-		"Auto_blaster_reload", //3
-		"Shotgun_reload", //4
-		"Burst_bullet_reload", //5
-		"Burst_blaster_reload" //6
-	],
 	"ratity": [
 		"common", //0
 		"rare", //1

@@ -17,6 +17,6 @@
         }
     },
     "rewards": {
-        "function": "gun:reload"
+        "function": "gun:reload/"
     }
 }
