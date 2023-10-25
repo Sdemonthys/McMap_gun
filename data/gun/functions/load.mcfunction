@@ -18,7 +18,7 @@ scoreboard players set #15 gun.data 15
 
 forceload add 0 0
 # 62061910-616f-403d-b391-82c2a14aba41
-summon item_frame 0 -200 0 {Invulnerable:true,Fixed:true,UUID:[I;1644566800,1634680893,-1282309438,-1588938175],Tags:["global.ignore","global.ignore.kill","global.ignore.pos"]}
+summon item_frame 0 -100 0 {Invulnerable:true,Fixed:true,UUID:[I;1644566800,1634680893,-1282309438,-1588938175],Tags:["global.ignore","global.ignore.kill","global.ignore.pos"]}
 
 function gun:schedule/
 tellraw @a[tag=convention.debug] "gun loaded"
