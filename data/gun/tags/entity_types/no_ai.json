@@ -7,6 +7,22 @@
         "armor_stand",
         "firework_rocket",
         "marker",
-        "painting"
+        "painting",
+        "item",
+        "item_display",
+        "item_frame",
+        "glow_item_frame",
+        "text_display",
+        "block_display",
+        "spawner_minecart",
+        "minecart",
+        "tnt_minecart",
+        "furnace_minecart",
+        "chest_minecart",
+        "chest_boat",
+        "boat",
+        "hopper_minecart",
+        "command_block_minecart",
+        "tnt"
     ]
 }
