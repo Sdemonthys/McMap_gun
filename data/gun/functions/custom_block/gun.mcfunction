@@ -1,0 +1,1 @@
+execute if data storage smithed.custom_block:main blockApi{id:"MenuGui"} run function gun:custom_block/menu_gui

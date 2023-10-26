@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{gun_gui:{}}"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "gun:schedule_2t/in_gui"
+    }
+}
