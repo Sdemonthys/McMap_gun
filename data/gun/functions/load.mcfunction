@@ -10,6 +10,9 @@ scoreboard objectives add Electrical dummy
 scoreboard objectives add Toxic dummy
 scoreboard objectives add Physical dummy
 
+scoreboard objectives add PoisonTime dummy
+scoreboard objectives add PoisonDamage dummy
+
 scoreboard objectives add gun.ability_points dummy
 scoreboard objectives add gun.max_ability_points dummy
 scoreboard objectives add gun.ultimate dummy
@@ -22,7 +25,8 @@ summon item_frame 0 -100 0 {Invulnerable:true,Fixed:true,UUID:[I;1644566800,1634
 
 function gun:schedule/
 function gun:schedule_2t/
-tellraw @a[tag=convention.debug] "gun loaded"
+function gun:schedule_1s/
+tellraw @a[tag=convention.debug] "Lucratys DataPack Loaded"
 
 #define storage gun:items
 #define storage gun:data

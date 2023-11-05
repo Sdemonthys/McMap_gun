@@ -19,7 +19,6 @@ ImpactOnColision: 0
 Rarity: 0
 EquipTime: 0
 FiringMode: 0
-PoisonTime: 0
 CanGoThroughBlock: 0
 MaxAmmo: 0
 Ammo: 0
@@ -32,8 +31,22 @@ ToxicMin: 0
 ClassRequired: x
 QuestCompletedRequired: 0
 
-AddPlayerSpeed: 0
+#Gun bonuses
+
 AddAbilityPoints: 0
 AddAbilityPointsRegen: +0/s
-AddSkillPoints: 0
-UniqueAbility: 0
+
+AddSkillPointsRegen: 0
+
+HealthRegen : 0
+Health : 0
+
+WalkSpeed: 0
+JumpHeight: 0
+
+PoisonTime: 0
+PoisonDamage: 0
+
++%Physical Damage: 0
++%Electrical Damage: 0
++%Toxical Damage: 0

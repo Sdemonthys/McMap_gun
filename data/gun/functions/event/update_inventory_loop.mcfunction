@@ -18,6 +18,9 @@ execute if score @s Level >= #level_min gun.data if data storage gun:data curren
 #lvl5-Poison Rapid Fire
 execute if score @s Level >= #level_min gun.data if data storage gun:data current_item.tag.gun{Poison_Rapid_Fire:1b} run data modify entity 62061910-616f-403d-b391-82c2a14aba41 Item.tag.display.Lore[5] set value '["",{"text":"y ","font":"gun:emoji","color":"#FFFFFF"},{"text": "Lv. Min: 5","color":"#AAAAAA","italic":false}]'
 
+#lvl35-carnage
+execute if score @s Level >= #level_min gun.data if data storage gun:data current_item.tag.gun{Carnage:1b} run data modify entity 62061910-616f-403d-b391-82c2a14aba41 Item.tag.display.Lore[5] set value '["",{"text":"y ","font":"gun:emoji","color":"#FFFFFF"},{"text": "Lv. Min: 35","color":"#AAAAAA","italic":false}]'
+
 ## Armes avec level electrique
 
 execute store result score #level_min gun.data run data get storage gun:data current_item.tag.gun.ElectricalMin
@@ -37,7 +40,9 @@ execute if score @s Toxic >= #level_min gun.data if data storage gun:data curren
 ## Armes avec level physique
 
 execute store result score #level_min gun.data run data get storage gun:data current_item.tag.gun.PhysicalMin
-# Rien pour l'instant
+
+# lvl35-Carnage
+execute if score @s Physical >= #level_min gun.data if data storage gun:data current_item.tag.gun{Carnage:1b} run data modify entity 62061910-616f-403d-b391-82c2a14aba41 Item.tag.display.Lore[6] set value '["",{"text":"y ","font":"gun:emoji","color":"#FFFFFF"},{"text": "Physic. Min: 75","color":"#AAAAAA","italic":false}]'
 
 ## 2. Copie de l'arme à nouveau dans l'inventaire
 function gun:event/update/copy_slot with storage gun:data current_item
