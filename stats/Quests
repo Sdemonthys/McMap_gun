@@ -1,0 +1,1 @@
+/summon villager ~ ~ ~ {Invulnerable:1b,CustomNameVisible:1b,PersistenceRequired:1b,NoAI:1b,Tags:["quest_npc",global.ignore],CustomName:'{"text":"Test","color":"#FFDD00","bold":true}'}
