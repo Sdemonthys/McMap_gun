@@ -1,6 +1,6 @@
-tellraw @p[tag=!quest_test_began,tag=!talked_to_dude1] ["",{"text":"Test", "color": "red"},{"text": " Go talk to the other dude next to me and bring me what he owes me !","color": "#FFDD00"}]
+tellraw @p[tag=!quest_test_began,tag=!talked_to_dude1] ["",{"text":"Test", "color": "#40E0D0"},{"text": " Go talk to the other dude next to me and bring me what he owes me !","color": "#FFFF00"}]
 
-tellraw @p[tag=talked_to_dude1,tag=!talked_to_guy1] ["",{"text":"Test", "color": "red"},{"text": " Come on ! Go steal his money for me, you'll get a cut!","color": "#FFDD00"}]
+tellraw @p[tag=talked_to_dude1,tag=!talked_to_guy1] ["",{"text":"Test", "color": "#40E0D0"},{"text": " Come on ! Go steal his money for me, you'll get a cut!","color": "#FFFF00"}]
 
 
 

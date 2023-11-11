@@ -1,2 +1,2 @@
-tellraw @p[tag=quest_test_began] ["",{"text":"Test", "color": "red"},{"text": " I don't know what he's talking about !","color": "#FFDD00"}]
+tellraw @p[tag=quest_test_began] ["",{"text":"Test", "color": "#40E0D0"},{"text": " I don't know what he's talking about !","color": "#FFFF00"}]
 schedule function gun:quests/quest/quest_test/begin_quest_test/dialogue/4 1s
