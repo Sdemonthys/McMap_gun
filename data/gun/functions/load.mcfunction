@@ -1,5 +1,13 @@
 function gun:items
 
+##gameplay
+
+#credits
+scoreboard objectives add credits dummy
+
+
+##gun
+
 scoreboard objectives add gun.right_click used:warped_fungus_on_a_stick
 scoreboard objectives add gun.data dummy
 scoreboard objectives add gun.cooldown dummy
@@ -19,7 +27,13 @@ scoreboard objectives add gun.ultimate dummy
 
 scoreboard players set #15 gun.data 15
 
+
+
+
+
 ##Quest
+
+scoreboard objectives add macro.data dummy
 
 scoreboard objectives add quest_test_count dummy
 
@@ -36,4 +50,4 @@ tellraw @a[tag=convention.debug] "Lucratys DataPack Loaded"
 
 #define storage gun:items
 #define storage gun:data
-
+#define storage gun:main

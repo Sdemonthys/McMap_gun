@@ -13,4 +13,4 @@ tag @p[tag=talked_to_dude1] add talked_to_guy1
 
 execute if entity @p[tag=quest_test_began,tag=!talked_to_dude1] run function gun:quests/quest/quest_test/objective/objective1
 
-execute if entity @p[tag=talked_to_guy1] run function gun:quests/quest/quest_test/objective/objective3
+execute if entity @p[tag=talked_to_guy1,tag=!quest_completed] run function gun:quests/quest/quest_test/objective/objective3

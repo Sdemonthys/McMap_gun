@@ -6,4 +6,6 @@ tellraw @p[tag=talked_to_dude1,tag=!talked_to_guy1,tag=quest_interaction] ["",{"
 
 schedule function gun:quests/quest/quest_test/begin_quest_test/dialogue/2 1s
 
-execute if entity @p[tag=quest_interaction,tag=talked_to_dude1,tag=!talked_to_guy1,scores={}] run function gun:quests/quest/quest_test/begin_quest_test/dialogue/5
+
+execute as @p[tag=talked_to_dude1,tag=talked_to_guy1] run function gun:quests/check_if_player_has_item/ {id:"mangrove_pressure_plate",count:6}
+execute if score #validate macro.data matches 1.. if entity @p[tag=quest_interaction,tag=talked_to_dude1,tag=talked_to_guy1] run function gun:quests/quest/quest_test/begin_quest_test/dialogue/5
