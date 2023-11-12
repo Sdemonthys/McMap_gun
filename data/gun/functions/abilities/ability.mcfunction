@@ -1,11 +1,8 @@
 
-#player cant trigger ability
-tag @s add gun.thrown
-
 #give back gun
-say gave back gun
-
-#player can use ability
-tag @s remove gun.thrown
-
+data modify storage gun:items data.temp set from entity @s Item.tag
+loot give @p loot gun:drop_gun
+#launch ability
 function gun:abilities/ability/wich_ability
+#kill item
+kill @s
