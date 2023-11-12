@@ -5,6 +5,11 @@ function gun:items
 #credits
 scoreboard objectives add credits dummy
 
+#health
+scoreboard objectives add health dummy
+
+#death
+scoreboard objectives add death deathCount
 
 ##gun
 
