@@ -4,4 +4,3 @@ loot give @p loot gun:drop_gun
 
 kill @s
 
-say hihihihi

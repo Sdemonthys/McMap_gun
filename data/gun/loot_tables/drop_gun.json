@@ -11,12 +11,12 @@
                             "function": "copy_nbt",
                             "source": {
                                 "type": "storage",
-                                "source": "gun:items"
+                                "source": "gun:data"
                             },
                             "ops": [
                                 {
                                     "op": "merge",
-                                    "source": "data.temp",
+                                    "source": "data.gun",
                                     "target": "{}"
                                 }
                             ]
