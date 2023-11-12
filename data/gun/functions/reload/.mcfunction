@@ -12,3 +12,4 @@ function gun:input/test_level/
 execute if score @s gun.cooldown matches 0 if score #success gun.data matches 1 run function gun:reload/ammo
 item replace entity @s weapon.mainhand from entity 62061910-616f-403d-b391-82c2a14aba41 container.0
     
+    
