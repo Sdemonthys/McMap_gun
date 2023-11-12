@@ -11,6 +11,11 @@ scoreboard objectives add health dummy
 #death
 scoreboard objectives add death deathCount
 
+#experience
+
+scoreboard objectives add player_experience dummy
+scoreboard objectives add Level xp
+
 ##gun
 
 scoreboard objectives add gun.right_click used:warped_fungus_on_a_stick

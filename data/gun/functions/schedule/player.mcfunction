@@ -7,3 +7,5 @@ execute if entity @s[tag=gun.hold_gun] run function gun:schedule/titles
 
 scoreboard players remove @s[scores={gun.cooldown=1..}] gun.cooldown 1
 execute if entity @s[tag=gun.reloading] if score @s gun.cooldown matches 0 run tag @s remove gun.reloading
+
+execute if score @s player_experience matches 100.. run function gun:schedule/player/experience

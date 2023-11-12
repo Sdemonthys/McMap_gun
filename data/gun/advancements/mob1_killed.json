@@ -1,0 +1,17 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:husk",
+            "nbt": "{Tags:[\"mob1\"]}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "gun:experience_system/manage_what_xp_to_give/mob1"
+    }
+  }
+  
