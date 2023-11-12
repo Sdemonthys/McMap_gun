@@ -33,7 +33,7 @@ QuestCompletedRequired: 0
 
 #Gun bonuses
 
-AddAbilityPoints: 0
+AddMaxAbilityPoints: 0
 AddAbilityPointsRegen: +0/s
 
 AddSkillPointsRegen: 0
