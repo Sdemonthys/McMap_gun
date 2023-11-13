@@ -1,0 +1,1 @@
+tellraw @p {"text": "This weapon doesn't have an ability.","color": "dark_red","italic": false}
