@@ -16,6 +16,10 @@ scoreboard objectives add death deathCount
 scoreboard objectives add player_experience dummy
 scoreboard objectives add Level xp
 
+##ability
+
+scoreboard objectives add wich_ultimate dummy
+
 ##gun
 
 scoreboard objectives add gun.right_click used:warped_fungus_on_a_stick
@@ -56,6 +60,8 @@ summon item_frame 0 -100 0 {Invulnerable:true,Fixed:true,UUID:[I;1644566800,1634
 function gun:schedule/
 function gun:schedule_2t/
 function gun:schedule_1s/
+function gun:schedule_30s/
+
 tellraw @a[tag=convention.debug] "Lucratys DataPack Loaded"
 
 #define storage gun:items
