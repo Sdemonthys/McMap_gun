@@ -47,3 +47,4 @@ scoreboard players operation @s smithed.damage /= 10 smithed.const
 
 # apply new damage
 execute if score @s smithed.damage matches 1.. run function smithed.damage:v0.2.0/entity/apply
+

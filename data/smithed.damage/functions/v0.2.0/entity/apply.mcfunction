@@ -20,3 +20,4 @@ execute if entity @s[type=!player] run function smithed.damage:v0.2.0/entity/hea
 execute if score @s smithed.damage >= $maximumHealth smithed.damage run function smithed.damage:v0.2.0/entity/on_death
 execute if score @s smithed.damage < $maximumHealth smithed.damage run function smithed.damage:v0.2.0/entity/health/update
 scoreboard players reset @s smithed.damage
+

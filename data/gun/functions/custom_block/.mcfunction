@@ -1,1 +1,0 @@
-execute if data storage smithed.custom_block:main blockApi.__data.Items[0].tag.smithed.block{from:"Sdemonthys:gun"} run function gun:custom_block/gun

@@ -32,3 +32,4 @@
 function #smithed.damage:event/entity/on_death
 execute if entity @s[type=player] run function smithed.damage:v0.2.0/entity/death_message
 execute if entity @s[type=!player] run kill @s
+

@@ -1,1 +1,0 @@
-execute unless block ~ ~ ~ barrel run function gun:schedule_2t/destroy_gui
