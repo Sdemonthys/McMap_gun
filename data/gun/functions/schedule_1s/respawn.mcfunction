@@ -1,7 +1,6 @@
-scoreboard players set @s death 0
-scoreboard players add @s deaths 1
+scoreboard players set @p death 0
+scoreboard players add @p deaths 1
 
-gamemode adventure @s 
+gamemode adventure @p
 
-effect give @s night_vision infinite 0 true
-effect give @s saturation infinite 0 true
+effect give @p night_vision infinite 0 true
