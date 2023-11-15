@@ -3,6 +3,8 @@
 data modify storage gun:data data.gun set from entity @s Item.tag
 loot give @p loot gun:drop_gun
 
+##truc de snoupy
+
 #data modify entity @s Owner set from entity @s Thrower
 #data modify entity @s PickupDelay set value 0s
 
