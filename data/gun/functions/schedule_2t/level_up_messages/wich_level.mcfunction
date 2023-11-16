@@ -1,0 +1,1 @@
+execute if entity @p[scores={Level=1},tag=!level_1] run function gun:schedule_2t/level_up_messages/level_1
