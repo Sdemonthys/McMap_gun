@@ -62,7 +62,7 @@ summon item_frame 0 -100 0 {Invulnerable:true,Fixed:true,UUID:[I;1644566800,1634
 function gun:schedule/
 function gun:schedule_2t/
 function gun:schedule_1s/
-function gun:schedule_30s/
+function gun:schedule_20s/
 
 tellraw @a[tag=convention.debug] "Lucratys DataPack Loaded"
 
