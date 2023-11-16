@@ -1,3 +1,3 @@
 scoreboard players remove @p gun.ultimate 10
 
-say hacker_ability
+say hacker_ultimate

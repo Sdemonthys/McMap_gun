@@ -4,4 +4,4 @@ scoreboard players remove @p gun.ultimate 10
 
 
 #run ability function
-say terrorist_ability
+say terrorist_ultimate

@@ -1,0 +1,2 @@
+tellraw @s [{"text": "Your level needs to be at least level ","blod":true,"color":"dark_red"},{"score":{"name": "#level","objective": "gun.data"}},{"text": " to use this weapon"}]
+playsound entity.villager.no player @s ~ ~ ~

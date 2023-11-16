@@ -60,7 +60,6 @@ forceload add 0 0
 summon item_frame 0 -100 0 {Invulnerable:true,Fixed:true,UUID:[I;1644566800,1634680893,-1282309438,-1588938175],Tags:["global.ignore","global.ignore.kill","global.ignore.pos"]}
 
 function gun:schedule/
-function gun:schedule_2t/
 function gun:schedule_1s/
 function gun:schedule_20s/
 

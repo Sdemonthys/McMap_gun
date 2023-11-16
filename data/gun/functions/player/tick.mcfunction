@@ -1,6 +1,11 @@
 
 # Si le niveau est différent, actualiser l'inventaire & Copy the current level to the old level
 execute unless score @s gun.old_level = @s Level run tag @s add gun.inventory_changed
+
+
+
+
+function gun:player/level_up_messages/wich_level
 scoreboard players operation @s gun.old_level = @s Level
 
 # Actualiser l'inventaire du joueur si nécessaire
