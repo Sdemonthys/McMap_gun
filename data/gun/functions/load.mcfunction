@@ -64,6 +64,7 @@ function gun:schedule_1s/
 function gun:schedule_20s/
 
 tellraw @a[tag=convention.debug] "Lucratys DataPack Loaded"
+tellraw @a "Welcome to Lucratys ! Enjoy your time !"
 
 #define storage gun:items
 #define storage gun:data
