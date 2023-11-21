@@ -41,9 +41,7 @@ scoreboard objectives add gun.ultimate dummy
 
 scoreboard players set #15 gun.data 15
 
-
-
-
+##gui
 
 ##Quest
 
@@ -53,18 +51,25 @@ scoreboard objectives add quest_test_count dummy
 
 scoreboard objectives add wich_npc dummy
 
-#gun item frame
+##gun item frame
 
 forceload add 0 0
 # 62061910-616f-403d-b391-82c2a14aba41
 summon item_frame 0 -100 0 {Invulnerable:true,Fixed:true,UUID:[I;1644566800,1634680893,-1282309438,-1588938175],Tags:["global.ignore","global.ignore.kill","global.ignore.pos"]}
 
+##tick functions
+
 function gun:schedule/
+function gun:schedule_2t/
 function gun:schedule_1s/
 function gun:schedule_20s/
 
+##start messages
+
 tellraw @a[tag=convention.debug] "Lucratys DataPack Loaded"
 tellraw @a "Welcome to Lucratys ! Enjoy your time !"
+
+##storages
 
 #define storage gun:items
 #define storage gun:data
