@@ -43,6 +43,14 @@ scoreboard players set #15 gun.data 15
 
 ##gui
 
+scoreboard objectives add xOldPos dummy
+scoreboard objectives add yOldPos dummy
+scoreboard objectives add zOldPos dummy
+
+scoreboard objectives add xPos dummy
+scoreboard objectives add yPos dummy
+scoreboard objectives add zPos dummy
+
 ##Quest
 
 scoreboard objectives add macro.data dummy

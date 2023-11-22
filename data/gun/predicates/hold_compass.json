@@ -6,7 +6,8 @@
             "mainhand": {
                 "items": [
                     "compass"
-                ]
+                ],
+                "nbt": "{gun:{}}"
             }
         }
     }
