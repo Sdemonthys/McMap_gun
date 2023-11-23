@@ -44,6 +44,7 @@ scoreboard players set #15 gun.data 15
 ##gui
 
 kill @e[type=chest_minecart,tag=gui]
+tag @s remove in_gui 
 
 scoreboard objectives add rotation dummy
 scoreboard objectives add old.rotation dummy
