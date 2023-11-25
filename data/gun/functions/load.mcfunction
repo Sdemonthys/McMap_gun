@@ -1,6 +1,23 @@
 function gun:items
 
+##gui
+
+#security
+kill @e[type=chest_minecart,tag=gui]
+tag @a remove in_gui 
+
+#gui pages
+
+scoreboard objectives add skill_gui_page dummy
+
+#get rotation
+scoreboard objectives add rotation dummy
+scoreboard objectives add old.rotation dummy
+
 ##gameplay
+
+#classes
+scoreboard objectives add class dummy
 
 #credits
 scoreboard objectives add credits dummy
@@ -41,19 +58,7 @@ scoreboard objectives add gun.ultimate dummy
 
 scoreboard players set #15 gun.data 15
 
-##gui
 
-#security
-kill @e[type=chest_minecart,tag=gui]
-tag @s remove in_gui 
-
-#gui pages
-
-scoreboard objectives add skill_gui_page dummy
-
-#get rotation
-scoreboard objectives add rotation dummy
-scoreboard objectives add old.rotation dummy
 
 #scoreboard objectives add xOldPos dummy
 #scoreboard objectives add yOldPos dummy
