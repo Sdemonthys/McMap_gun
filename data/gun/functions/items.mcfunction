@@ -1,7 +1,7 @@
 ##gui
-data modify storage gun:items data.compass.skill_menu set value {              id:"compass",Count:1b,Slot:16b,tag:{HideFlags:255,              display:{Name:'{"text": "Skill menu","italic": false}',   Lore:[]},gun:{gui:1}}}
-data modify storage gun:items data.compass.quest_book set value {              id:"compass",Count:1b,Slot:16b,tag:{HideFlags:255,              display:{Name:'{"text": "Quest book","italic": false}',   Lore:[]},gun:{gui:2}}}
-data modify storage gun:items data.compass.map set value {              id:"compass",Count:1b,Slot:16b,tag:{HideFlags:255,              display:{Name:'{"text": "Map","italic": false}',                 Lore:[]},gun:{gui:3}}}
+data modify storage gun:items data.compass.skill_menu set value {              id:"compass",Count:1b,Slot:16b,tag:{HideFlags:255, CustomModelData:6890010,            display:{Name:'{"text": "Skill menu","italic": false}',   Lore:[]},gun:{gui:1}}}
+data modify storage gun:items data.compass.quest_book set value {              id:"compass",Count:1b,Slot:16b,tag:{HideFlags:255, CustomModelData:6890009,             display:{Name:'{"text": "Quest book","italic": false}',   Lore:[]},gun:{gui:2}}}
+data modify storage gun:items data.compass.map set value {              id:"compass",Count:1b,Slot:16b,tag:{HideFlags:255,        display:{Name:'{"text": "Map","italic": false}',                 Lore:[]},gun:{gui:3}}}
 
 ##level 0-10
    #guns

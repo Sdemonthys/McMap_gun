@@ -43,19 +43,25 @@ scoreboard players set #15 gun.data 15
 
 ##gui
 
+#security
 kill @e[type=chest_minecart,tag=gui]
 tag @s remove in_gui 
 
+#gui pages
+
+scoreboard objectives add skill_gui_page dummy
+
+#get rotation
 scoreboard objectives add rotation dummy
 scoreboard objectives add old.rotation dummy
 
-scoreboard objectives add xOldPos dummy
-scoreboard objectives add yOldPos dummy
-scoreboard objectives add zOldPos dummy
+#scoreboard objectives add xOldPos dummy
+#scoreboard objectives add yOldPos dummy
+#scoreboard objectives add zOldPos dummy
 
-scoreboard objectives add xPos dummy
-scoreboard objectives add yPos dummy
-scoreboard objectives add zPos dummy
+#scoreboard objectives add xPos dummy
+#scoreboard objectives add yPos dummy
+#scoreboard objectives add zPos dummy
 
 ##Quest
 
