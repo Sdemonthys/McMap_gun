@@ -8,9 +8,15 @@ tag @e[type=chest_minecart] add gui
 
 function gun:gui/not_in_gui
 
-execute if entity @s[scores={skill_gui_page=0}] run function gun:gui/skill_menu/1
-execute if entity @s[scores={skill_gui_page=1}] run function gun:gui/skill_menu/2
-execute if entity @s[scores={skill_gui_page=2}] run function gun:gui/skill_menu/3
-execute if entity @s[scores={skill_gui_page=3}] run function gun:gui/skill_menu/4
+#base menu
+execute if entity @s[scores={skill_gui_page=0}] run function gun:gui/skill_menu/0
+
+#skill_tree
+execute if entity @s[scores={skill_gui_page=1}] run function gun:gui/skill_menu/1
+execute if entity @s[scores={skill_gui_page=2}] run function gun:gui/skill_menu/2
+execute if entity @s[scores={skill_gui_page=3}] run function gun:gui/skill_menu/3
+execute if entity @s[scores={skill_gui_page=4}] run function gun:gui/skill_menu/4
+execute if entity @s[scores={skill_gui_page=5}] run function gun:gui/skill_menu/5
+execute if entity @s[scores={skill_gui_page=6}] run function gun:gui/skill_menu/6
 
 
