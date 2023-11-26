@@ -44,9 +44,9 @@ Health : 0
 WalkSpeed: 0
 JumpHeight: 0
 
-PoisonTime: 0
-PoisonDamage: 0
-
 +%Physical Damage: 0
 +%Electrical Damage: 0
 +%Toxical Damage: 0
+
+PoisonTime: 0
+PoisonDamage: 0
