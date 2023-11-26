@@ -1,4 +1,5 @@
 function gun:items
+function gun:gui_storage
 
 ##gui
 
@@ -15,6 +16,10 @@ scoreboard objectives add rotation dummy
 scoreboard objectives add old.rotation dummy
 
 ##gameplay
+
+#saturation
+
+scoreboard objectives add saturation food
 
 #classes
 scoreboard objectives add class dummy
@@ -58,8 +63,6 @@ scoreboard objectives add gun.ultimate dummy
 
 scoreboard players set #15 gun.data 15
 
-
-
 #scoreboard objectives add xOldPos dummy
 #scoreboard objectives add yOldPos dummy
 #scoreboard objectives add zOldPos dummy
@@ -99,3 +102,4 @@ tellraw @a "Welcome to Lucratys ! Enjoy your time !"
 #define storage gun:items
 #define storage gun:data
 #define storage gun:main
+#define storage gun:gui_storage

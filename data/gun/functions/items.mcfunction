@@ -1,7 +1,19 @@
 ##gui
-data modify storage gun:items data.compass.skill_menu set value {              id:"compass",Count:1b,Slot:16b,tag:{HideFlags:255, CustomModelData:6890010,            display:{Name:'{"text": "Skill menu","italic": false}',   Lore:[]},gun:{gui:1}}}
-data modify storage gun:items data.compass.quest_book set value {              id:"compass",Count:1b,Slot:16b,tag:{HideFlags:255, CustomModelData:6890009,             display:{Name:'{"text": "Quest book","italic": false}',   Lore:[]},gun:{gui:2}}}
-data modify storage gun:items data.compass.map set value {              id:"compass",Count:1b,Slot:16b,tag:{HideFlags:255,        display:{Name:'{"text": "Map","italic": false}',                 Lore:[]},gun:{gui:3}}}
+data modify storage gun:items data.compass.skill_menu set value {                                   id:"compass",Count:1b,Slot:16b,tag:{HideFlags:255, CustomModelData:6890010,             display:{Name:'{"text": "Skill menu","italic": false}',   Lore:[]},gun:{gui:1}}}
+data modify storage gun:items data.compass.quest_book set value {                                   id:"compass",Count:1b,Slot:16b,tag:{HideFlags:255, CustomModelData:6890009,             display:{Name:'{"text": "Quest book","italic": false}',   Lore:[]},gun:{gui:2}}}
+data modify storage gun:items data.compass.map set value {                                          id:"compass",Count:1b,Slot:16b,tag:{HideFlags:255,                                      display:{Name:'{"text": "Map","italic": false}',          Lore:[]},gun:{gui:3}}}
+
+ #skill tree items
+data modify storage gun:items data.compass.skill_tree_straight_empty set value {                    id:"compass",Count:1b,Slot:16b,tag:{HideFlags:255,CustomModelData:6890012, display:{Name:'{"text": "","italic": false}'}}}
+data modify storage gun:items data.compass.skill_tree_cross_right_empty set value {                 id:"compass",Count:1b,Slot:16b,tag:{HideFlags:255,CustomModelData:6890013, display:{Name:'{"text": "","italic": false}'}}}
+data modify storage gun:items data.compass.skill_tree_cross_left_empty set value {                  id:"compass",Count:1b,Slot:16b,tag:{HideFlags:255,CustomModelData:6890014, display:{Name:'{"text": "","italic": false}'}}}
+data modify storage gun:items data.compass.skill_tree_straight_big_ability_empty set value {        id:"compass",Count:1b,Slot:16b,tag:{HideFlags:255,CustomModelData:6890015}}
+data modify storage gun:items data.compass.skill_tree_crossroad_empty set value {                   id:"compass",Count:1b,Slot:16b,tag:{HideFlags:255,CustomModelData:6890018, display:{Name:'{"text": "","italic": false}'}}}
+data modify storage gun:items data.compass.skill_tree_l_right_empty set value {                     id:"compass",Count:1b,Slot:16b,tag:{HideFlags:255,CustomModelData:6890016, display:{Name:'{"text": "","italic": false}'}}}
+data modify storage gun:items data.compass.skill_tree_l_left_empty set value {                      id:"compass",Count:1b,Slot:16b,tag:{HideFlags:255,CustomModelData:6890017, display:{Name:'{"text": "","italic": false}'}}}
+data modify storage gun:items data.compass.skill_tree_l_up_empty set value {                        id:"compass",Count:1b,Slot:16b,tag:{HideFlags:255,CustomModelData:6890019, display:{Name:'{"text": "","italic": false}'}}}
+data modify storage gun:items data.compass.skill_tree_l_down_empty set value {                      id:"compass",Count:1b,Slot:16b,tag:{HideFlags:255,CustomModelData:6890020, display:{Name:'{"text": "","italic": false}'}}}
+data modify storage gun:items data.compass.skill_tree_vertical_empty set value {                    id:"compass",Count:1b,Slot:16b,tag:{HideFlags:255,CustomModelData:6890021, display:{Name:'{"text": "","italic": false}'}}}
 
 ##level 0-10
    #guns
@@ -36,3 +48,5 @@ data modify storage gun:items data.lvl15.crusher set value {            id:"warp
 ##level 41-50
 
 data modify storage gun:items data.lvl35.carnage set value {             id:"warped_funguns_on_a_stick",Count:1b,Slot:16b,tag:{path:"lvl35.carnage",CustomModelData:6890400,HideFlags:255,            display:{Name:'{"text":"Carnage","italic":false,"color":"#55FFFF"}',Lore:['{"text":"FiringMode: Shotgun","color":"#AAAAAA","italic":false}','{"text": ""}','["",{"italic":false,"color":"white","text":"n ","font":"gun:emoji"},{"text":"Neutral","color":"#FFAA00","italic":false},{"text":" Damage: 45","color":"#AAAAAA","italic":false}]','["",{"italic":false,"color":"white","text":"P ","font":"gun:emoji"},{"text":"Physical","color":"dark_red","italic":false},{"text":" Damage: 38","color":"#AAAAAA","italic":false}]','{"text":""}','["",{"text":"x ","font":"gun:emoji"},{"text": "Lv. Min: 35","color":"#AAAAAA","italic":false}]','["",{"text":"x ","font":"gun:emoji"},{"text": "Physic. Min: 75","color":"#AAAAAA","italic":false}]','{"text": ""}','{"text": "LegendaryItem","italic":false,"color":"#55FFFF"}']},gun:{Carnage:1b,cooldown:4b,ReloadCooldown:10b,Damage:{Neutral:45,Physical:38},range:100,recoil:3b,sound:4b,RaycastColor:3b,ImpactOnColision:0b,LevelMin:35b,PhysicalMin:75,EquipTime:3b,FiringMode:2,CanGoThroughBlock:1b,rarity:3,MaxAmmo:8,Ammo:8,gun_ability:1b}}}
+
+give @s leather_helmet{AttributeModifiers:[{AttributeName:"generic.max_health",Slot:"head",Amount:5,UUID:[I;540,1554545454,3545,5444545]}]} 1
