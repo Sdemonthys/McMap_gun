@@ -5,6 +5,9 @@ execute unless score @s rotation = @s old.rotation run tag @s remove in_gui
 execute store result score @s old.rotation run data get entity @s Rotation[0] 0.1
 
 tag @s remove skill_tree
+tag @s[tag=!in_gui] remove in_skill_tree_page_1
+tag @s[tag=!in_gui] remove in_skill_tree_page_2
+
 execute if entity @s[tag=!in_gui] run scoreboard players set @s skill_gui_page 0
 
 kill @e[nbt={Item:{tag:{menu:1b},}}]

@@ -28,3 +28,5 @@ execute unless entity @e[type=chest_minecart,nbt={Items:[{Slot:23b},{id:"minecra
 execute unless entity @e[type=chest_minecart,nbt={Items:[{Slot:24b},{id:"minecraft:compass"}]}] run function gun:gui/skill_menu/clear_items/24
 execute unless entity @e[type=chest_minecart,nbt={Items:[{Slot:25b},{id:"minecraft:compass"}]}] run function gun:gui/skill_menu/clear_items/25
 execute unless entity @e[type=chest_minecart,nbt={Items:[{Slot:26b},{id:"minecraft:compass"}]}] run function gun:gui/skill_menu/clear_items/26
+
+tag @s add in_skill_tree_page_1
