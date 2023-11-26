@@ -1,2 +1,2 @@
-clear @s yellow_dye{interactive:1b}
-item replace entity @e[type=chest_minecart] container.26 with yellow_dye{limit:1,interactive:1b,display:{Name:'{"text": "Reset your stats","italic": false, "color": "gold","bold": true}'}}
+execute if score @s skill_gui_page matches 0 run function gun:gui/skill_menu/clear_items/page0/26
+

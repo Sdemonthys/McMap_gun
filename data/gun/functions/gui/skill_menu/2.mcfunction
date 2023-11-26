@@ -1,7 +1,4 @@
-
-
-
-execute unless entity @e[type=chest_minecart,nbt={Items:[{Slot:0b},{id:"minecraft:blue_stained_glass_pane",Count:1b}]}] run function gun:gui/skill_menu/clear_items/0
+execute unless entity @e[type=chest_minecart,nbt={Items:[{Slot:0b},{id:"minecraft:oak_button",Count:1b}]}] run function gun:gui/skill_menu/clear_items/0
 execute unless entity @e[type=chest_minecart,nbt={Items:[{Slot:1b},{id:"minecraft:blue_stained_glass_pane"}]}] run function gun:gui/skill_menu/clear_items/1
 execute unless entity @e[type=chest_minecart,nbt={Items:[{Slot:2b},{id:"minecraft:blue_stained_glass_pane"}]}] run function gun:gui/skill_menu/clear_items/2
 execute unless entity @e[type=chest_minecart,nbt={Items:[{Slot:3b},{id:"minecraft:light_blue_stained_glass_pane"}]}] run function gun:gui/skill_menu/clear_items/3

@@ -1,3 +1,5 @@
+execute if score @s skill_gui_page matches 0 run function gun:gui/skill_menu/clear_items/page0/13
+
 clear @s lime_dye{interactive:1b}
 item replace entity @e[type=chest_minecart] container.13 with lime_dye{limit:1,interactive:1b,display:{Name:'{"text": "Toxic","italic": false, "color": "dark_green"}'}}
 execute if score @s SkillPoints matches 1.. run scoreboard players add @s Toxic 1

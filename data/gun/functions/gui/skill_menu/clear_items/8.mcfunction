@@ -1,2 +1,4 @@
+execute if score @s skill_gui_page matches 0 run function gun:gui/skill_menu/clear_items/page0/8
+
 clear @s iron_chestplate{menu:1b}
 item replace entity @e[type=chest_minecart] container.8 with iron_chestplate{limit:1,menu:1b,HideFlags:255, display:{Name:'{"text":"Player Defenses","color": "gray","italic": false}',Lore:['{"text": ""}','[{"text": "Toxic ", "color": "dark_green","italic": false},{"text": "Defense: ","italic": false}]','[{"text": "Electrical ","color": "dark_aqua","italic": false},{"text": "Defense: ","italic": false}]','[{"text": "Physical ", "color": "dark_red","italic": false},{"text": "Defense: ","italic": false}]']}}
