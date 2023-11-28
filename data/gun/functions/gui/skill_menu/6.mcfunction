@@ -29,4 +29,4 @@ execute unless data storage gun:data gui_items[{Slot:22b,id:"minecraft:compass"}
 execute unless data storage gun:data gui_items[{Slot:23b,id:"minecraft:compass"}] run function gun:gui/skill_menu/reset
 execute unless data storage gun:data gui_items[{Slot:24b,id:"minecraft:compass"}] run function gun:gui/skill_menu/reset
 execute unless data storage gun:data gui_items[{Slot:25b,id:"minecraft:compass"}] run function gun:gui/skill_menu/reset
-execute unless data storage gun:data gui_items[{Slot:26b,id:"minecraft:compass"}] run function gun:gui/skill_menu/next_page
+execute unless data storage gun:data gui_items[{Slot:26b,id:"minecraft:compass"}] run function gun:gui/skill_menu/reset

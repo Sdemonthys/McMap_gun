@@ -4,19 +4,21 @@ data modify storage gun:items data.compass.quest_book set value {               
 data modify storage gun:items data.compass.map set value {                                          id:"compass",Count:1b,Slot:16b,tag:{HideFlags:255,                                      display:{Name:'{"text": "Map","italic": false}',          Lore:[]},gun:{gui:3}}}
 
  #skill tree items
-data modify storage gun:items data.compass.skill_tree_straight_empty set value {                    id:"compass",Count:1b,Slot:16b,tag:{HideFlags:255,CustomModelData:6890012, display:{Name:'{"text": "","italic": false}'}}}
-data modify storage gun:items data.compass.skill_tree_cross_right_empty set value {                 id:"compass",Count:1b,Slot:16b,tag:{HideFlags:255,CustomModelData:6890013, display:{Name:'{"text": "","italic": false}'}}}
-data modify storage gun:items data.compass.skill_tree_cross_left_empty set value {                  id:"compass",Count:1b,Slot:16b,tag:{HideFlags:255,CustomModelData:6890014, display:{Name:'{"text": "","italic": false}'}}}
-data modify storage gun:items data.compass.skill_tree_straight_big_ability_empty set value {        id:"compass",Count:1b,Slot:16b,tag:{HideFlags:255,CustomModelData:6890015}}
-data modify storage gun:items data.compass.skill_tree_crossroad_empty set value {                   id:"compass",Count:1b,Slot:16b,tag:{HideFlags:255,CustomModelData:6890018, display:{Name:'{"text": "","italic": false}'}}}
-data modify storage gun:items data.compass.skill_tree_l_right_empty set value {                     id:"compass",Count:1b,Slot:16b,tag:{HideFlags:255,CustomModelData:6890016, display:{Name:'{"text": "","italic": false}'}}}
-data modify storage gun:items data.compass.skill_tree_l_left_empty set value {                      id:"compass",Count:1b,Slot:16b,tag:{HideFlags:255,CustomModelData:6890017, display:{Name:'{"text": "","italic": false}'}}}
-data modify storage gun:items data.compass.skill_tree_l_up_empty set value {                        id:"compass",Count:1b,Slot:16b,tag:{HideFlags:255,CustomModelData:6890019, display:{Name:'{"text": "","italic": false}'}}}
-data modify storage gun:items data.compass.skill_tree_l_down_empty set value {                      id:"compass",Count:1b,Slot:16b,tag:{HideFlags:255,CustomModelData:6890020, display:{Name:'{"text": "","italic": false}'}}}
-data modify storage gun:items data.compass.skill_tree_vertical_empty set value {                    id:"compass",Count:1b,Slot:16b,tag:{HideFlags:255,CustomModelData:6890021, display:{Name:'{"text": "","italic": false}'}}}
-data modify storage gun:items data.compass.skill_tree_empty set value {                             id:"compass",Count:1b,Slot:16b,tag:{HideFlags:255,CustomModelData:6890022, display:{Name:'{"text": "","italic": false}'}}}
-data modify storage gun:items data.compass.skill_tree_arrow_up set value {                          id:"compass",Count:1b,Slot:16b,tag:{HideFlags:255,CustomModelData:6890023, display:{Name:'{"text": "","italic": false}'}}}
-data modify storage gun:items data.compass.skill_tree_arrow_down set value {                        id:"compass",Count:1b,Slot:16b,tag:{HideFlags:255,CustomModelData:6890024, display:{Name:'{"text": "","italic": false}'}}}
+data modify storage gun:items data.compass.skill_tree_straight_empty set value {                    id:"compass",Count:1b,Slot:16b,tag:{interactive:1b,HideFlags:255,CustomModelData:6890012, display:{Name:'{"text": "","italic": false}'}}}
+data modify storage gun:items data.compass.skill_tree_cross_right_empty set value {                 id:"compass",Count:1b,Slot:16b,tag:{interactive:1b,HideFlags:255,CustomModelData:6890013, display:{Name:'{"text": "","italic": false}'}}}
+data modify storage gun:items data.compass.skill_tree_cross_left_empty set value {                  id:"compass",Count:1b,Slot:16b,tag:{interactive:1b,HideFlags:255,CustomModelData:6890014, display:{Name:'{"text": "","italic": false}'}}}
+data modify storage gun:items data.compass.skill_tree_straight_big_ability_empty set value {        id:"compass",Count:1b,Slot:16b,tag:{interactive:1b,HideFlags:255,CustomModelData:6890015}}
+data modify storage gun:items data.compass.skill_tree_crossroad_empty set value {                   id:"compass",Count:1b,Slot:16b,tag:{interactive:1b,HideFlags:255,CustomModelData:6890018, display:{Name:'{"text": "","italic": false}'}}}
+data modify storage gun:items data.compass.skill_tree_l_right_empty set value {                     id:"compass",Count:1b,Slot:16b,tag:{interactive:1b,HideFlags:255,CustomModelData:6890016, display:{Name:'{"text": "","italic": false}'}}}
+data modify storage gun:items data.compass.skill_tree_l_left_empty set value {                      id:"compass",Count:1b,Slot:16b,tag:{interactive:1b,HideFlags:255,CustomModelData:6890017, display:{Name:'{"text": "","italic": false}'}}}
+data modify storage gun:items data.compass.skill_tree_l_up_empty set value {                        id:"compass",Count:1b,Slot:16b,tag:{interactive:1b,HideFlags:255,CustomModelData:6890019, display:{Name:'{"text": "","italic": false}'}}}
+data modify storage gun:items data.compass.skill_tree_l_down_empty set value {                      id:"compass",Count:1b,Slot:16b,tag:{interactive:1b,HideFlags:255,CustomModelData:6890020, display:{Name:'{"text": "","italic": false}'}}}
+data modify storage gun:items data.compass.skill_tree_vertical_empty set value {                    id:"compass",Count:1b,Slot:16b,tag:{interactive:1b,HideFlags:255,CustomModelData:6890021, display:{Name:'{"text": "","italic": false}'}}}
+data modify storage gun:items data.compass.skill_tree_empty set value {                             id:"compass",Count:1b,Slot:16b,tag:{interactive:1b,HideFlags:255,CustomModelData:6890022, display:{Name:'{"text": "","italic": false}'}}}
+data modify storage gun:items data.compass.skill_tree_arrow_up set value {                          id:"compass",Count:1b,Slot:16b,tag:{interactive:1b,HideFlags:255,CustomModelData:6890023, display:{Name:'{"text": "","italic": false}'}}}
+data modify storage gun:items data.compass.skill_tree_arrow_down set value {                        id:"compass",Count:1b,Slot:16b,tag:{interactive:1b,HideFlags:255,CustomModelData:6890024, display:{Name:'{"text": "","italic": false}'}}}
+data modify storage gun:items data.compass.skill_tree_red_arrow set value {                        id:"compass",Count:1b,Slot:16b,tag:{interactive:1b,HideFlags:255,CustomModelData:6890025, display:{Name:'{"text": "","italic": false}'}}}
+
 
 ##level 0-10
    #guns

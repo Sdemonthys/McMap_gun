@@ -1,5 +1,5 @@
 function gun:items
-function gun:gui_storage
+execute unless data storage gun:gui_storage data run function gun:gui_storage
 
 ##gui
 
@@ -10,12 +10,15 @@ tag @a remove in_gui
 #gui pages
 
 scoreboard objectives add skill_gui_page dummy
+scoreboard objectives add SkillPoints dummy
 
 #get rotation
 scoreboard objectives add rotation dummy
 scoreboard objectives add old.rotation dummy
 
 ##gameplay
+
+
 
 #saturation
 
@@ -62,14 +65,6 @@ scoreboard objectives add gun.max_ability_points dummy
 scoreboard objectives add gun.ultimate dummy
 
 scoreboard players set #15 gun.data 15
-
-#scoreboard objectives add xOldPos dummy
-#scoreboard objectives add yOldPos dummy
-#scoreboard objectives add zOldPos dummy
-
-#scoreboard objectives add xPos dummy
-#scoreboard objectives add yPos dummy
-#scoreboard objectives add zPos dummy
 
 ##Quest
 

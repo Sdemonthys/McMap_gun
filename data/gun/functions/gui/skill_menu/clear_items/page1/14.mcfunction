@@ -1,2 +1,0 @@
-clear @s compass{menu:1b}
-item replace entity @e[type=chest_minecart] container.14 with compass{limit:1,menu:1b,CustomModelData:6890019,display:{Name:'{"text": ""}'}}

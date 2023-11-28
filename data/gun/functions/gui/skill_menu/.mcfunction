@@ -2,21 +2,19 @@
 
 
 execute if entity @e[type=chest_minecart,sort=nearest,tag=gui,limit=1] if entity @s[tag=!in_gui] run kill @e[type=chest_minecart,tag=gui]
-execute at @s[tag=!in_gui] positioned ~ ~1.25 ~ run summon chest_minecart ^ ^0.25 ^ {Items:[{Slot:0,id:"blue_stained_glass_pane",Count:1,tag:{menu:1b,display:{Name:'{"text": ""}'}}},{Slot:1,id:"blue_stained_glass_pane",Count:1,tag:{menu:1b,display:{Name:'{"text": ""}'}}},{Slot:2,id:"blue_stained_glass_pane",Count:1,tag:{menu:1b,display:{Name:'{"text": ""}'}}},{Slot:3,id:"light_blue_stained_glass_pane",Count:1,tag:{menu:1b,display:{Name:'{"text": ""}'}}},{Slot:4,id:"light_blue_stained_glass_pane",Count:1,tag:{menu:1b,display:{Name:'{"text": ""}'}}},{Slot:5,id:"light_blue_stained_glass_pane",Count:1,tag:{menu:1b,display:{Name:'{"text": ""}'}}},{Slot:6,id:"light_blue_stained_glass_pane",Count:1,tag:{menu:1b,display:{Name:'{"text": ""}'}}},{Slot:7,id:"light_blue_stained_glass_pane",Count:1,tag:{menu:1b,display:{Name:'{"text": ""}'}}},{Slot:8,id:"iron_chestplate",Count:1,tag:{HideFlags:255, menu:1b,display:{Name:'{"text":"Player Defenses","color": "gray","italic": false}',Lore:['{"text": ""}','[{"text": "Toxic ", "color": "dark_green","italic": false},{"text": "Defense: ","italic": false}]','[{"text": "Electrical ","color": "dark_aqua","italic": false},{"text": "Defense: ","italic": false}]','[{"text": "Physical ", "color": "dark_red","italic": false},{"text": "Defense: ","italic": false}]']}}},{Slot:9,id:"blue_stained_glass_pane",Count:1,tag:{menu:1b,display:{Name:'{"text": ""}'}}},{Slot:10,id:"end_crystal",Count:1,tag:{interactive:1b,display:{Name:'{"text":"Skill tree"}'}}},{Slot:11,id:"blue_stained_glass_pane",Count:1,tag:{menu:1b,display:{Name:'{"text": ""}'}}},{Slot:12,id:"light_blue_stained_glass_pane",Count:1,tag:{menu:1b,display:{Name:'{"text": ""}'}}},{Slot:13,id:"lime_dye",Count:1,tag:{interactive:1b,display:{Name:'{"text":"Toxic","color": "dark_green","italic": false}'}}},{Slot:14,id:"cyan_dye",Count:1,tag:{interactive:1b,display:{Name:'{"text":"Electrical","color":"dark_aqua","italic": false}'}}},{Slot:15,id:"red_dye",Count:1,tag:{interactive:1b,display:{Name:'{"text":"Physical","color": "dark_red","italic": false}'}}},{Slot:16,id:"light_blue_stained_glass_pane",Count:1,tag:{menu:1b,display:{Name:'{"text": ""}'}}},{Slot:17,id:"iron_sword",Count:1,tag:{menu:1b,HideFlags:255,display:{Name:'{"text": "Player Damages","color": "gray","italic": false}',Lore:['{"text": ""}','[{"text": "Toxic ", "color": "dark_green","italic": false},{"text": "Damage: ","italic": false}]','[{"text": "Electrical ","color": "dark_aqua","italic": false},{"text": "Damage: ","italic": false}]','[{"text": "Physical ", "color": "dark_red","italic": false},{"text": "Damage: ","italic": false}]']},}},{Slot:18,id:"blue_stained_glass_pane",Count:1,tag:{menu:1b,display:{Name:'{"text": ""}'}}},{Slot:19,id:"blue_stained_glass_pane",Count:1,tag:{menu:1b,display:{Name:'{"text": ""}'}}},{Slot:20,id:"blue_stained_glass_pane",Count:1,tag:{menu:1b,display:{Name:'{"text": ""}'}}},{Slot:21,id:"light_blue_stained_glass_pane",Count:1,tag:{menu:1b,display:{Name:'{"text": ""}'}}},{Slot:22,id:"light_blue_stained_glass_pane",Count:1,tag:{menu:1b,display:{Name:'{"text": ""}'}}},{Slot:23,id:"light_blue_stained_glass",Count:1,tag:{menu:1b,display:{Name:'{"text": ""}'}}},{Slot:23,id:"light_blue_stained_glass_pane",Count:1,tag:{menu:1b,display:{Name:'{"text": ""}'}}},{Slot:24,id:"light_blue_stained_glass_pane",Count:1,tag:{menu:1b,display:{Name:'{"text": ""}'}}},{Slot:25,id:"light_blue_stained_glass_pane",Count:1,tag:{menu:1b,display:{Name:'{"text": ""}'}}},{Slot:26,id:"yellow_dye",Count:1,tag:{interactive:1b,display:{Name:'{"text": "Reset your stats!","color": "gold","bold": true,"italic": false}'}}}]}
+execute at @s[tag=!in_gui] positioned ~ ~1.25 ~ positioned ^ ^0.25 ^ summon chest_minecart run function gun:gui/skill_menu/summon_minecart
 execute if entity @s[tag=in_gui] run tp @e[type=chest_minecart,distance=..50,sort=nearest] ^ ^1.3 ^2
-tag @e[type=chest_minecart] add gui
 
 function gun:gui/not_in_gui
 
 #base menu
-execute if entity @s[scores={skill_gui_page=0}] run function gun:gui/skill_menu/0
+execute if entity @s[scores={skill_gui_page=0},tag=in_gui] as @e[type=chest_minecart,limit=1] run function gun:gui/skill_menu/0
 
 #skill_tree
-execute if entity @s[scores={skill_gui_page=1}] run function gun:gui/skill_menu/1
-execute if entity @s[scores={skill_gui_page=2}] run function gun:gui/skill_menu/2
-execute if entity @s[scores={skill_gui_page=3}] run function gun:gui/skill_menu/3
-execute if entity @s[scores={skill_gui_page=4}] run function gun:gui/skill_menu/4
-execute if entity @s[scores={skill_gui_page=5}] run function gun:gui/skill_menu/5
-execute if entity @s[scores={skill_gui_page=6}] run function gun:gui/skill_menu/6
-
+execute if entity @s[scores={skill_gui_page=1},tag=in_gui] as @e[type=chest_minecart,limit=1] run function gun:gui/skill_menu/1
+execute if entity @s[scores={skill_gui_page=2},tag=in_gui] as @e[type=chest_minecart,limit=1] run function gun:gui/skill_menu/2
+execute if entity @s[scores={skill_gui_page=3},tag=in_gui] as @e[type=chest_minecart,limit=1] run function gun:gui/skill_menu/3
+execute if entity @s[scores={skill_gui_page=4},tag=in_gui] as @e[type=chest_minecart,limit=1] run function gun:gui/skill_menu/4
+execute if entity @s[scores={skill_gui_page=5},tag=in_gui] as @e[type=chest_minecart,limit=1] run function gun:gui/skill_menu/5
+execute if entity @s[scores={skill_gui_page=6},tag=in_gui] as @e[type=chest_minecart,limit=1] run function gun:gui/skill_menu/6
 
