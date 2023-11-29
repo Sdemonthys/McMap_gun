@@ -4,7 +4,7 @@ data modify storage gun:data gui_items set from entity @s Items
 execute unless data storage gun:data gui_items[{Slot:0b,id:"minecraft:compass"}] run function gun:gui/skill_menu/reset
 execute unless data storage gun:data gui_items[{Slot:1b,id:"minecraft:compass"}] run function gun:gui/skill_menu/reset
 execute unless data storage gun:data gui_items[{Slot:2b,id:"minecraft:compass"}] run function gun:gui/skill_menu/reset
-execute unless data storage gun:data gui_items[{Slot:3b,id:"minecraft:compass"}] run function gun:gui/skill_menu/reset
+execute unless data storage gun:data gui_items[{Slot:3b,id:"minecraft:compass"}] run function gun:gui/skill_menu/page1/3
 execute unless data storage gun:data gui_items[{Slot:4b,id:"minecraft:compass"}] run function gun:gui/skill_menu/reset
 execute unless data storage gun:data gui_items[{Slot:5b,id:"minecraft:compass"}] run function gun:gui/skill_menu/reset
 execute unless data storage gun:data gui_items[{Slot:6b,id:"minecraft:compass"}] run function gun:gui/skill_menu/reset

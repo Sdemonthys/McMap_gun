@@ -8,9 +8,12 @@ kill @e[type=chest_minecart,tag=gui]
 tag @a remove in_gui 
 
 #gui pages
-
 scoreboard objectives add skill_gui_page dummy
+
+#requieredPoints
 scoreboard objectives add SkillPoints dummy
+scoreboard objectives add skill_tree_ability_points dummy
+
 
 #get rotation
 scoreboard objectives add rotation dummy
