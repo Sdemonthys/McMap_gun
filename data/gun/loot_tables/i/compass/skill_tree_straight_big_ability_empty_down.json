@@ -1,0 +1,29 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "compass",
+                    "functions": [
+                        {
+                            "function": "copy_nbt",
+                            "source": {
+                                "type": "storage",
+                                "source": "gun:items"
+                            },
+                            "ops": [
+                                {
+                                    "op": "merge",
+                                    "source": "data.compass.skill_tree_straight_big_ability_empty_down.tag",
+                                    "target": "{}"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
