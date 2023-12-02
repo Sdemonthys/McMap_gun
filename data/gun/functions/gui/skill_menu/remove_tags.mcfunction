@@ -7,3 +7,10 @@ tag @s remove have_skill_tree_page1_ability_6
 tag @s remove have_skill_tree_page1_ability_7
 tag @s remove have_skill_tree_page1_ability_8
 tag @s remove have_skill_tree_page1_ability_9
+tag @s remove have_skill_tree_page1_ability_10
+tag @s remove have_skill_tree_page1_ability_11
+tag @s remove have_skill_tree_page1_ability_12
+tag @s remove have_skill_tree_page1_ability_13
+tag @s remove have_skill_tree_page1_ability_14
+tag @s remove have_skill_tree_page1_ability_15
+tag @s remove have_skill_tree_page1_ability_16
