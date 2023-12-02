@@ -7,7 +7,7 @@ execute unless data storage gun:data gui_items[{Slot:2b,id:"minecraft:compass"}]
 execute unless data storage gun:data gui_items[{Slot:3b,id:"minecraft:compass"}] run function gun:gui/skill_menu/reset
 execute unless data storage gun:data gui_items[{Slot:4b,id:"minecraft:compass"}] run function gun:gui/skill_menu/reset
 execute unless data storage gun:data gui_items[{Slot:5b,id:"minecraft:compass"}] run function gun:gui/skill_menu/reset
-execute unless data storage gun:data gui_items[{Slot:6b,id:"minecraft:compass"}] run function gun:gui/skill_menu/reset
+execute unless data storage gun:data gui_items[{Slot:6b,id:"minecraft:compass"}] run function gun:gui/skill_menu/page5/6
 execute unless data storage gun:data gui_items[{Slot:7b,id:"minecraft:compass"}] run function gun:gui/skill_menu/reset
 execute unless data storage gun:data gui_items[{Slot:8b,id:"minecraft:compass"}] run function gun:gui/skill_menu/last_page
 
@@ -15,18 +15,18 @@ execute unless data storage gun:data gui_items[{Slot:9b,id:"minecraft:compass"}]
 execute unless data storage gun:data gui_items[{Slot:10b,id:"minecraft:compass"}] run function gun:gui/skill_menu/reset
 execute unless data storage gun:data gui_items[{Slot:11b,id:"minecraft:compass"}] run function gun:gui/skill_menu/reset
 execute unless data storage gun:data gui_items[{Slot:12b,id:"minecraft:compass"}] run function gun:gui/skill_menu/reset
-execute unless data storage gun:data gui_items[{Slot:13b,id:"minecraft:compass"}] run function gun:gui/skill_menu/reset
+execute unless data storage gun:data gui_items[{Slot:13b,id:"minecraft:compass"}] run function gun:gui/skill_menu/page5/13
 execute unless data storage gun:data gui_items[{Slot:14b,id:"minecraft:compass"}] run function gun:gui/skill_menu/reset
 execute unless data storage gun:data gui_items[{Slot:15b,id:"minecraft:compass"}] run function gun:gui/skill_menu/reset
 execute unless data storage gun:data gui_items[{Slot:16b,id:"minecraft:compass"}] run function gun:gui/skill_menu/reset
 execute unless data storage gun:data gui_items[{Slot:17b,id:"minecraft:compass"}] run function gun:gui/skill_menu/reset
 
-execute unless data storage gun:data gui_items[{Slot:18b,id:"minecraft:compass"}] run function gun:gui/skill_menu/reset
-execute unless data storage gun:data gui_items[{Slot:19b,id:"minecraft:compass"}] run function gun:gui/skill_menu/reset
-execute unless data storage gun:data gui_items[{Slot:20b,id:"minecraft:compass"}] run function gun:gui/skill_menu/reset
+execute unless data storage gun:data gui_items[{Slot:18b,id:"minecraft:compass"}] run function gun:gui/skill_menu/page5/18
+execute unless data storage gun:data gui_items[{Slot:19b,id:"minecraft:compass"}] run function gun:gui/skill_menu/page5/19
+execute unless data storage gun:data gui_items[{Slot:20b,id:"minecraft:compass"}] run function gun:gui/skill_menu/page5/20
 execute unless data storage gun:data gui_items[{Slot:21b,id:"minecraft:compass"}] run function gun:gui/skill_menu/reset
 execute unless data storage gun:data gui_items[{Slot:22b,id:"minecraft:compass"}] run function gun:gui/skill_menu/reset
-execute unless data storage gun:data gui_items[{Slot:23b,id:"minecraft:compass"}] run function gun:gui/skill_menu/reset
+execute unless data storage gun:data gui_items[{Slot:23b,id:"minecraft:compass"}] run function gun:gui/skill_menu/page5/23
 execute unless data storage gun:data gui_items[{Slot:24b,id:"minecraft:compass"}] run function gun:gui/skill_menu/reset
-execute unless data storage gun:data gui_items[{Slot:25b,id:"minecraft:compass"}] run function gun:gui/skill_menu/reset
+execute unless data storage gun:data gui_items[{Slot:25b,id:"minecraft:compass"}] run function gun:gui/skill_menu/page5/25
 execute unless data storage gun:data gui_items[{Slot:26b,id:"minecraft:compass"}] run function gun:gui/skill_menu/next_page

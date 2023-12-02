@@ -19,3 +19,11 @@ tag @s remove have_skill_tree_page1_ability_18
 tag @s remove have_skill_tree_page1_ability_19
 tag @s remove have_skill_tree_page1_ability_20
 tag @s remove have_skill_tree_page1_ability_21
+tag @s remove have_skill_tree_page1_ability_22
+tag @s remove have_skill_tree_page1_ability_23
+tag @s remove have_skill_tree_page1_ability_24
+tag @s remove have_skill_tree_page1_ability_25
+tag @s remove have_skill_tree_page1_ability_26
+tag @s remove have_skill_tree_page1_ability_27
+tag @s remove have_skill_tree_page1_ability_28
+tag @s remove have_skill_tree_page1_ability_29

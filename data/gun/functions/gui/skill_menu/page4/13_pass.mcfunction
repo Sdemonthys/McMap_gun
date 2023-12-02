@@ -4,5 +4,6 @@ tag @p add have_skill_tree_page1_ability_19
 
 data modify storage gun:gui_storage data.page[4][{Slot:13b}].tag.CustomModelData set value 6890037
 data modify storage gun:gui_storage data.page[4][{Slot:22b}].tag.CustomModelData set value 6890038
+data modify storage gun:gui_storage data.page[5][{Slot:4b}].tag.CustomModelData set value 6890038
 
 
