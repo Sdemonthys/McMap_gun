@@ -14,3 +14,8 @@ tag @s remove have_skill_tree_page1_ability_13
 tag @s remove have_skill_tree_page1_ability_14
 tag @s remove have_skill_tree_page1_ability_15
 tag @s remove have_skill_tree_page1_ability_16
+tag @s remove have_skill_tree_page1_ability_17
+tag @s remove have_skill_tree_page1_ability_18
+tag @s remove have_skill_tree_page1_ability_19
+tag @s remove have_skill_tree_page1_ability_20
+tag @s remove have_skill_tree_page1_ability_21
