@@ -1,3 +1,5 @@
+function gun:gui_storage
+
 tag @s remove have_skill_tree_page1_ability_1
 tag @s remove have_skill_tree_page1_ability_2
 tag @s remove have_skill_tree_page1_ability_3
@@ -27,3 +29,10 @@ tag @s remove have_skill_tree_page1_ability_26
 tag @s remove have_skill_tree_page1_ability_27
 tag @s remove have_skill_tree_page1_ability_28
 tag @s remove have_skill_tree_page1_ability_29
+tag @s remove have_skill_tree_page1_ability_30
+tag @s remove have_skill_tree_page1_ability_31
+tag @s remove have_skill_tree_page1_ability_32
+tag @s remove have_skill_tree_page1_ability_33
+tag @s remove have_skill_tree_page1_ability_34
+tag @s remove have_skill_tree_page1_ability_35
+tag @s remove have_skill_tree_page1_ability_36
