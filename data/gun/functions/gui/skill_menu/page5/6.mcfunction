@@ -1,4 +1,4 @@
-execute unless entity @p[tag=have_skill_tree_page1_ability_22] run tellraw @p [{"text": "You don't meet the requierements to acces this ability","italic":false,"color": "dark_red"}]
+execute unless entity @p[tag=have_skill_tree_page1_ability_22] run tellraw @p [{"text": "You don't meet the requierements to unlock this ability","italic":false,"color": "dark_red"}]
 execute unless entity @p[tag=have_skill_tree_page1_ability_22] run playsound block.anvil.place player @p 
 
 execute unless score @p[tag=have_skill_tree_page1_ability_22] skill_tree_ability_points matches 1.. run tellraw @p [{"text": "You don't have enough ability points to unlock this ability.","color": "dark_red","italic": false}]
