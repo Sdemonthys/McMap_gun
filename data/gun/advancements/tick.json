@@ -1,0 +1,8 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:tick"
+      }
+    }, "rewards": {"function": "gun:one_tick_delay"}
+  }
+  

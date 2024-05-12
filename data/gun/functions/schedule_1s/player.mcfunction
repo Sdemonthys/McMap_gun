@@ -11,3 +11,4 @@ execute if score @s wich_ultimate matches 0 run scoreboard players set @s gun.ul
 ##hunger
 
 #execute if score @s saturation matches ..15 run effect give @s saturation
+

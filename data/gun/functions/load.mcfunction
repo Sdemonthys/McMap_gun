@@ -1,6 +1,13 @@
 function gun:items
 execute unless data storage gun:gui_storage data run function gun:gui_storage
 
+#Gamerules
+
+gamerule keepInventory true
+gamerule doWeatherCycle false
+gamerule doDaylightCycle false
+time set day
+
 ##gui
 
 #security
@@ -21,10 +28,7 @@ scoreboard objectives add old.rotation dummy
 
 ##gameplay
 
-
-
 #saturation
-
 scoreboard objectives add saturation food
 
 #classes
@@ -40,9 +44,8 @@ scoreboard objectives add health dummy
 scoreboard objectives add death deathCount
 
 #experience
-
 scoreboard objectives add player_experience dummy
-scoreboard objectives add Level xp
+scoreboard objectives add Level level
 
 ##ability
 
@@ -69,6 +72,8 @@ scoreboard objectives add gun.ultimate dummy
 
 scoreboard players set #15 gun.data 15
 
+scoreboard objectives add critical_hit_chance dummy
+
 ##Quest
 
 scoreboard objectives add macro.data dummy
@@ -76,6 +81,10 @@ scoreboard objectives add macro.data dummy
 scoreboard objectives add quest_test_count dummy
 
 scoreboard objectives add wich_npc dummy
+
+scoreboard objectives add quest_npc_level dummy
+
+ 
 
 ##gun item frame
 

@@ -3,7 +3,7 @@ CustomModelData: 6890000
 ReloadCooldown: 15 
 Cooldown: 3
 
-CriticalChance: 0
+
 Damage:
   Neutral damage: +10
   Electrical: +0
@@ -29,9 +29,14 @@ ElectricalMin: 0
 PhysicalMin: 0
 ToxicMin: 0
 
-ClassRequired: x
 QuestCompletedRequiered: 0
 
+
+
+
+
+
+CriticalChance: 0
 AddPlayerSpeed: 0
 AddAbilityPoints: 0
 AddAbilityPointsRegen: +0/s

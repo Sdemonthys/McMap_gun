@@ -10,7 +10,7 @@ data modify entity 62061910-616f-403d-b391-82c2a14aba41 Item set from storage gu
 execute store result score #level_min gun.data run data get storage gun:data current_item.tag.gun.LevelMin
 
 #lvl1-Liberty
-execute if score @s Level >= #level_min gun.data if data storage gun:data current_item.tag.gun{Liberty:1b} run data modify entity 62061910-616f-403d-b391-82c2a14aba41 Item.tag.display.Lore[4] set value '["",{"text":"y ","font":"gun:emoji","color":"#FFFFFF"},{"text": "Lv. Min: 1","color":"#AAAAAA","italic":false}]'
+execute if score @s Level >= #level_min gun.data if data storage gun:data current_item.tag.gun{Liberty:1b} run data modify entity 62061910-616f-403d-b391-82c2a14aba41 Item.tag.display.Lore[4] set value '["",{"text":"y","font":"gun:emoji","color":"#FFFFFF"},{"text": " Lv. Min: 1","color":"#AAAAAA","italic":false}]'
 
 #lvl2-Electrical_Punch
 execute if score @s Level >= #level_min gun.data if data storage gun:data current_item.tag.gun{Electrical_Punch:1b} run data modify entity 62061910-616f-403d-b391-82c2a14aba41 Item.tag.display.Lore[5] set value '["",{"text":"y ","font":"gun:emoji","color":"#FFFFFF"},{"text": "Lv. Min: 2","color":"#AAAAAA","italic":false}]'

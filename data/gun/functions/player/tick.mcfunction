@@ -14,5 +14,6 @@ execute as @s if entity @s[predicate=gun:hold_compass] run function gun:gui/
 # Actualiser l'inventaire du joueur si nécessaire
 execute if entity @s[tag=gun.inventory_changed] run function gun:event/update_inventory
 
-
-
+##guns
+#critical hit
+execute as @s if entity @s[predicate=gun:hold_gun] run function gun:test_probabilities/test

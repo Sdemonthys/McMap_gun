@@ -3,3 +3,4 @@ execute store result score #level_gun gun.data run data get storage gun:data cur
 
 execute if score @p Level < #level_gun gun.data run function gun:abilities/ability/none
 execute if score @p Level >= #level_gun gun.data run function gun:abilities/ability/launch
+
