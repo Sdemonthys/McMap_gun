@@ -1,5 +1,7 @@
-data modify storage gun:data data.inventory 
+data modify storage gun:data save.inventory set from entity @s Inventory
 
-say inventory saved
-say cleared inventory
-clear @p 
+tellraw @s[tag=convention.debug] "Inventory saved..."
+
+clear @p
+
+tellraw @s[tag=convention.debug] "Cleared inventory..."
