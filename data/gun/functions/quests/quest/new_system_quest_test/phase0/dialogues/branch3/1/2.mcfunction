@@ -5,5 +5,5 @@ tellraw @p "Dude: If you want the pay to be good, you better start now. I don't 
 
 tag @p remove chose
 
-schedule function gun:quests/quest/new_system_quest_test/dialogues/end 25t
+schedule function gun:quests/quest/new_system_quest_test/phase0/dialogues/end 25t
 

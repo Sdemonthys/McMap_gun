@@ -4,4 +4,4 @@ tellraw @p "Dude: What I want is simple, I want you to find the bastard and kill
 
 
 
-schedule function gun:quests/quest/new_system_quest_test/choices/choices3 100t
+schedule function gun:quests/quest/new_system_quest_test/phase0/choices/choices3 100t

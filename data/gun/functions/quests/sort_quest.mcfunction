@@ -1,7 +1,7 @@
 ##new_system_sort
 
 #Firt dude
-execute if score @s wich_npc matches 1 run function gun:quests/quest/new_system_quest_test/dialogues/first_dude
+execute if score @s wich_npc matches 1 run function gun:quests/quest/new_system_quest_test/phase0/dialogues/first_dude
 
 
 

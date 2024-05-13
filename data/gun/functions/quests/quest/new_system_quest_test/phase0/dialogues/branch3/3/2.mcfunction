@@ -5,5 +5,5 @@ tellraw @p "Dude: I know that. But I doubt it. He is one sneaky fellow, he alway
 
 tag @p remove chose
 
-schedule function gun:quests/quest/new_system_quest_test/choices/choices3 25t
+schedule function gun:quests/quest/new_system_quest_test/phase0/choices/choices3 25t
 
