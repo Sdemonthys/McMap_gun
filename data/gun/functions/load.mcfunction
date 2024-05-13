@@ -86,6 +86,11 @@ scoreboard objectives add quest_npc_level dummy
 
 scoreboard objectives add quest_stage dummy
 
+scoreboard objectives add quest_objective dummy
+
+team add quest
+team add quest2
+
 
  
 
