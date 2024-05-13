@@ -84,6 +84,9 @@ scoreboard objectives add wich_npc dummy
 
 scoreboard objectives add quest_npc_level dummy
 
+scoreboard objectives add quest_stage dummy
+
+
  
 
 ##gun item frame
