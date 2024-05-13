@@ -1,3 +1,5 @@
+
+
 ## 0. On récupère l'arme du slot avec un Lore reset
 data modify storage gun:data current_item set from storage gun:data Inventory[0]
 function gun:event/update/reset_lore with storage gun:data current_item.tag

@@ -5,7 +5,6 @@ tag @s add quest_interaction
 function gun:quests/quest/utilities/freeze
 function gun:quests/quest/utilities/inventory/save
 
-
 scoreboard objectives remove quest_choice
 
 execute if score #new_quest_system_test quest_stage matches 0 run tellraw @p "Dude: Hey! You! Could you help me?"

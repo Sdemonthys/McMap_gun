@@ -12,3 +12,5 @@ tag @p remove add.dial.1
 tag @p remove quest_interaction
 
 scoreboard players set #new_quest_system_test quest_stage 0
+
+function gun:quests/clear_scoreboard

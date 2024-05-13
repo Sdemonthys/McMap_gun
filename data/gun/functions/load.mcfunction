@@ -76,10 +76,12 @@ scoreboard objectives add critical_hit_chance dummy
 
 ##Quest
 
+#macro for giving items to npc
 scoreboard objectives add macro.data dummy
 
 scoreboard objectives add quest_test_count dummy
 
+#scoreboard for the dialogue system
 scoreboard objectives add wich_npc dummy
 
 scoreboard objectives add quest_npc_level dummy
@@ -88,11 +90,9 @@ scoreboard objectives add quest_stage dummy
 
 scoreboard objectives add quest_objective dummy
 
+#quest objectives
 team add quest
 team add quest2
-
-
- 
 
 ##gun item frame
 
@@ -103,14 +103,12 @@ summon item_frame 0 -100 0 {Invulnerable:true,Fixed:true,UUID:[I;1644566800,1634
 ##tick functions
 
 function gun:schedule/
-function gun:schedule_2t/
 function gun:schedule_1s/
 function gun:schedule_20s/
 
 ##start messages
 
-tellraw @a[tag=convention.debug] "Lucratys DataPack Loaded"
-tellraw @a "Welcome to Lucratys ! Enjoy your time !"
+say @a[tag=convention.debug] "Lucratys DataPack Loaded"
 
 ##storages
 
