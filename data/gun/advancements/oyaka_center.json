@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:story/follow_ender_eye",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:player",
+          "location": {
+            "position": {
+              "x": {
+                "min": -25,
+                "max": 25
+              },
+              "y": {
+                "min": -25,
+                "max": 25
+              },
+              "z": {
+                "min": -25,
+                "max": 25
+              }
+            },
+            "dimension": "minecraft:overworld"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "gun:zone_system/oyaka_center/"
+  }
+}

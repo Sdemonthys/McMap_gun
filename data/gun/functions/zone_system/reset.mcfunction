@@ -1,0 +1,1 @@
+scoreboard players set @s oyaka_zones 0

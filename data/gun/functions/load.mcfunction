@@ -90,6 +90,10 @@ scoreboard objectives add quest_stage dummy
 
 scoreboard objectives add quest_objective dummy
 
+#zones_system
+
+scoreboard objectives add oyaka_zones dummy
+
 #quest objectives
 team add quest
 team add quest2
@@ -108,7 +112,7 @@ function gun:schedule_20s/
 
 ##start messages
 
-say @a[tag=convention.debug] "Lucratys DataPack Loaded"
+tellraw @a[tag=convention.debug] "[Lucratys DataPack Loaded...]"
 
 ##storages
 

@@ -1,42 +1,41 @@
-CustomModelData: 689xxxx
+# CustomModelData: 689xxxx
 
-ReloadCooldown: 0
-Cooldown: 0
+# ReloadCooldown: 0
+# Cooldown: 0
 
 CriticalChance: 0
-Damage:
-  Neutral damage: 0
-  Electrical: 0
-  Physical: +0
+# Damage:
+#   Neutral damage: 0
+#   Electrical: 0
+#   Physical: +0
   
-Poison: +0/s
 
-Range: 0
-Recoil: 0
-Sound:
-RaycastColor:
-ImpactOnColision: 0
-Rarity: 0
-EquipTime: 0
-FiringMode: 0
-CanGoThroughBlock: 0
-MaxAmmo: 0
-Ammo: 0
+# Range: 0
+# Recoil: 0
+# Sound:
+# RaycastColor:
+# ImpactOnColision: 0
+# Rarity: 0
+# EquipTime: 0
+# FiringMode: 0
+# CanGoThroughBlock: 0
+# MaxAmmo: 0
+# Ammo: 0
 
-LevelMin: 0
-ElectricalMin: 0
-PhysicalMin: 0
-ToxicMin: 0
+# LevelMin: 0
+# ElectricalMin: 0
+# PhysicalMin: 0
+# ToxicMin: 0
 
 ClassRequired: x
 QuestCompletedRequired: 0
 
 #Gun bonuses
 
-AddMaxAbilityPoints: 0
-AddAbilityPointsRegen: +0/s
+# AddMaxAbilityPoints: 0
+# AddAbilityPointsRegen: +0/s
 
-AddSkillPointsRegen: 0
+# AddSkillPointsRegen: 0
 
 HealthRegen : 0
 Health : 0
@@ -48,5 +47,5 @@ JumpHeight: 0
 +%Electrical Damage: 0
 +%Toxical Damage: 0
 
-PoisonTime: 0
-PoisonDamage: 0
+# PoisonTime: 0
+# PoisonDamage: 0
