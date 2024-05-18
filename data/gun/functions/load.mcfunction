@@ -51,6 +51,11 @@ scoreboard objectives add Level level
 
 scoreboard objectives add wich_ultimate dummy
 
+scoreboard objectives add double_jump_cooldown dummy
+
+scoreboard players set @p double_jump_cooldown 0
+
+
 ##gun
 
 scoreboard objectives add gun.right_click used:warped_fungus_on_a_stick

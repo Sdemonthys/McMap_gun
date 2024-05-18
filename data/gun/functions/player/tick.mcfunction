@@ -23,3 +23,4 @@ execute as @s if entity @s[predicate=gun:hold_gun] run function gun:test_probabi
 execute if predicate gun:jump if predicate gun:sneak if entity @s[tag=have_skill_tree_page1_ability_1] run function gun:abilities/ability/skill_tree/double_jump/
 execute unless predicate gun:jump run tag @s add double_jumping
 execute if entity @s[tag=!double_jumping] run effect give @s jump_boost 1 255 true
+execute unless entity @s[scores={double_jump_cooldown=0}] run scoreboard players remove @s double_jump_cooldown 1
