@@ -1,8 +1,12 @@
+
+
 execute if score #temp gun.data matches 0 run return 0
 
 data modify storage gun:data save.item set from storage gun:data save.inventory[0]
 
 data modify storage gun:data save.count set from storage gun:data save.item.Count
+
+data modify storage gun:data save.slot set from storage gun:data save.item.Slot
 
 data modify storage gun:data save.tag set value {}
 data modify storage gun:data save.tag set from storage gun:data save.item.tag
