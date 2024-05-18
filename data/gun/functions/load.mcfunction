@@ -88,7 +88,7 @@ scoreboard objectives add quest_npc_level dummy
 
 scoreboard objectives add quest_stage dummy
 
-scoreboard objectives add quest_objective dummy
+scoreboard objectives add quest_objective dummy "§r"
 
 #zones_system
 

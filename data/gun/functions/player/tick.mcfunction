@@ -17,3 +17,9 @@ execute if entity @s[tag=gun.inventory_changed] run say a
 ##guns
 #critical hit
 execute as @s if entity @s[predicate=gun:hold_gun] run function gun:test_probabilities/test
+
+
+##DoubleJump
+execute if predicate gun:jump if predicate gun:sneak if entity @s[tag=have_skill_tree_page1_ability_1] run function gun:abilities/ability/skill_tree/double_jump/
+execute unless predicate gun:jump run tag @s add double_jumping
+execute if entity @s[tag=!double_jumping] run effect give @s jump_boost 1 255 true
