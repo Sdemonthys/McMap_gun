@@ -3,7 +3,8 @@
 tag @s add quest_interaction
 
 function gun:quests/quest/utilities/freeze
-function gun:quests/quest/utilities/inventory/save
+execute as @p run function gun:quests/quest/utilities/inventory/save
+
 
 scoreboard objectives remove quest_choice
 
